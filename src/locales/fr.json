@@ -1,0 +1,129 @@
+{
+  "app": {
+    "title": "Exportateur de playlists YouTube",
+    "shortTitle": "YT Playlists",
+    "description": "Exportez vos playlists YouTube aux formats CSV et JSON. Visualisez, gérez et téléchargez vos données de playlist facilement."
+  },
+  "config": {
+    "title": "Configuration requise",
+    "setEnvVariable": "Veuillez définir la variable d'environnement <code>VITE_GOOGLE_CLIENT_ID</code>.",
+    "step1": "Copiez <code>.env.example</code> vers <code>.env.local</code>",
+    "step2": "Ajoutez votre identifiant client OAuth Google",
+    "step3": "Redémarrez le serveur de développement",
+    "getClientId": "Obtenez votre identifiant client depuis",
+    "googleCloudConsole": "Google Cloud Console"
+  },
+  "auth": {
+    "signIn": "Se connecter avec Google",
+    "signingIn": "Connexion en cours...",
+    "signOut": "Se déconnecter",
+    "readOnlyAccess": "Cette application demande uniquement un accès en lecture seule à vos playlists YouTube.",
+    "loginFailed": "Échec de la connexion",
+    "sessionExpired": "Votre session a expiré. Veuillez vous reconnecter.",
+    "failedToFetchUserInfo": "Impossible de récupérer les informations utilisateur",
+    "failedToAuthenticate": "Échec de l'authentification"
+  },
+  "login": {
+    "title": "Exportateur de playlists YouTube",
+    "description": "Visualisez et exportez vos playlists YouTube aux formats CSV ou JSON. Connectez-vous avec votre compte Google pour commencer."
+  },
+  "playlists": {
+    "title": "Vos playlists",
+    "description": "Sélectionnez une playlist pour voir son contenu et l'exporter au format CSV ou JSON.",
+    "breadcrumb": "Playlists",
+    "failedToLoad": "Échec du chargement des playlists",
+    "loading": "Chargement de vos playlists...",
+    "noDescription": "Aucune description",
+    "videoCount": "{{count}} vidéos",
+    "videoCount_one": "{{count}} vidéo",
+    "emptyPlaylist": {
+      "title": "Playlist vide",
+      "description": "Cette playlist ne contient aucune vidéo pour le moment."
+    },
+    "noPlaylists": {
+      "title": "Aucune playlist trouvée",
+      "description": "Vous n'avez pas encore de playlist. Créez une playlist sur YouTube et revenez ici pour l'exporter."
+    },
+    "noChannel": {
+      "title": "Aucune chaîne YouTube",
+      "description": "Votre compte Google n'a pas encore de chaîne YouTube. Créez-en une pour commencer à créer des playlists.",
+      "warningTitle": "Aucune chaîne YouTube détectée.",
+      "warningDescription": "Votre compte Google n'a pas encore de chaîne YouTube. Une chaîne est nécessaire pour créer et gérer des playlists.",
+      "createInfo": "Créer une chaîne est gratuit, ne prend que quelques secondes et",
+      "noVideosRequired": "ne nécessite pas de publier de vidéos",
+      "createChannel": "Créer votre chaîne YouTube"
+    },
+    "systemPlaylists": {
+      "title": "Playlists manquantes ?",
+      "description": "Malheureusement, l'API YouTube ne permet pas d'accéder aux playlists système telles que « À regarder plus tard » ou « Vidéos aimées ». Vous devez créer une playlist sur YouTube pour la voir ici."
+    }
+  },
+  "playlist": {
+    "failedToLoad": "Échec du chargement de la playlist",
+    "loadingVideos": "Chargement des vidéos de la playlist...",
+    "loadingProgress": "Chargement des vidéos...",
+    "progressCount": "{{progress}} / {{total}}"
+  },
+  "table": {
+    "position": "#",
+    "video": "Vidéo",
+    "channel": "Chaîne",
+    "published": "Publication",
+    "link": "Lien",
+    "deletedVideo": "Vidéo supprimée",
+    "privateVideo": "Vidéo privée"
+  },
+  "export": {
+    "button": "Exporter",
+    "exporting": "Exportation...",
+    "csv": "Exporter en CSV",
+    "json": "Exporter en JSON",
+    "columns": {
+      "position": "Position",
+      "videoId": "ID vidéo",
+      "title": "Titre",
+      "channel": "Chaîne",
+      "published": "Publication",
+      "description": "Description"
+    }
+  },
+  "quota": {
+    "title": "Quota API dépassé",
+    "message": "Le quota quotidien de l'API YouTube a été dépassé. Cette limite est partagée entre tous les utilisateurs de cette application.",
+    "resetTime": "Le quota se réinitialise à <strong>minuit, heure du Pacifique</strong> (PT).",
+    "explanation": "Ceci est une limitation de l'API YouTube Data. Chaque application dispose d'un quota quotidien de requêtes API. Veuillez réessayer après la réinitialisation du quota.",
+    "errorMessage": "Quota de l'API YouTube dépassé. Veuillez réessayer demain."
+  },
+  "errors": {
+    "title": "Erreur",
+    "retry": "Réessayer",
+    "tryAgain": "Réessayer",
+    "somethingWentWrong": "Une erreur s'est produite",
+    "unexpectedError": "Une erreur inattendue s'est produite",
+    "returnHome": "Retour à l'accueil"
+  },
+  "theme": {
+    "switchToLight": "Passer au mode clair",
+    "switchToDark": "Passer au mode sombre",
+    "toggleLabel": "Changer de thème"
+  },
+  "language": {
+    "label": "Langue",
+    "en": "English",
+    "fr": "Français"
+  },
+  "footer": {
+    "unofficialDeployment": "DÉPLOIEMENT NON OFFICIEL DE YOUTUBE PLAYLIST EXPORTER",
+    "privacyFirst": "Confidentialité d'abord : Nous n'avons pas accès à vos données. Voir",
+    "termsLink": "Conditions d'utilisation",
+    "privacyLink": "Politique de confidentialité",
+    "demoWarning": "DÉMO PRIVÉE - Non configuré pour un accès public",
+    "seeOur": "Voir notre",
+    "githubRepo": "dépôt GitHub",
+    "forSource": "pour le code source",
+    "by": "par"
+  },
+  "terms": {
+    "backToApp": "Retour à l'application"
+  }
+}

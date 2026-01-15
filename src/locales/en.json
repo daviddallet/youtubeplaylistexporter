@@ -1,0 +1,129 @@
+{
+  "app": {
+    "title": "YouTube Playlist Exporter",
+    "shortTitle": "YT Playlists",
+    "description": "Export your YouTube playlists to CSV and JSON format. View, manage, and download your playlist data easily."
+  },
+  "config": {
+    "title": "Configuration Required",
+    "setEnvVariable": "Please set the <code>VITE_GOOGLE_CLIENT_ID</code> environment variable.",
+    "step1": "Copy <code>.env.example</code> to <code>.env.local</code>",
+    "step2": "Add your Google OAuth Client ID",
+    "step3": "Restart the development server",
+    "getClientId": "Get your Client ID from",
+    "googleCloudConsole": "Google Cloud Console"
+  },
+  "auth": {
+    "signIn": "Sign in with Google",
+    "signingIn": "Signing in...",
+    "signOut": "Sign out",
+    "readOnlyAccess": "This app only requests read-only access to your YouTube playlists.",
+    "loginFailed": "Login failed",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "failedToFetchUserInfo": "Failed to fetch user info",
+    "failedToAuthenticate": "Failed to authenticate"
+  },
+  "login": {
+    "title": "YouTube Playlist Exporter",
+    "description": "View and export your YouTube playlists to CSV or JSON format. Sign in with your Google account to get started."
+  },
+  "playlists": {
+    "title": "Your Playlists",
+    "description": "Select a playlist to view its contents and export to CSV or JSON.",
+    "breadcrumb": "Playlists",
+    "failedToLoad": "Failed to load playlists",
+    "loading": "Loading your playlists...",
+    "noDescription": "No description",
+    "videoCount": "{{count}} videos",
+    "videoCount_one": "{{count}} video",
+    "emptyPlaylist": {
+      "title": "Empty playlist",
+      "description": "This playlist doesn't have any videos yet."
+    },
+    "noPlaylists": {
+      "title": "No playlists found",
+      "description": "You don't have any playlists yet. Create a playlist on YouTube and come back here to export it."
+    },
+    "noChannel": {
+      "title": "No YouTube channel",
+      "description": "Your Google account doesn't have a YouTube channel yet. Create one to start building playlists.",
+      "warningTitle": "No YouTube channel detected.",
+      "warningDescription": "Your Google account doesn't have a YouTube channel yet. A channel is required to create and manage playlists.",
+      "createInfo": "Creating a channel is free, takes only a few seconds, and",
+      "noVideosRequired": "does not require you to publish any videos",
+      "createChannel": "Create your YouTube channel"
+    },
+    "systemPlaylists": {
+      "title": "Missing playlists?",
+      "description": "Unfortunately, the YouTube API doesn't provide access to system playlists such as \"Watch Later\" or \"Liked Videos\". You need to create a playlist on YouTube to see it here."
+    }
+  },
+  "playlist": {
+    "failedToLoad": "Failed to load playlist",
+    "loadingVideos": "Loading playlist videos...",
+    "loadingProgress": "Loading videos...",
+    "progressCount": "{{progress}} / {{total}}"
+  },
+  "table": {
+    "position": "#",
+    "video": "Video",
+    "channel": "Channel",
+    "published": "Published",
+    "link": "Link",
+    "deletedVideo": "Deleted video",
+    "privateVideo": "Private video"
+  },
+  "export": {
+    "button": "Export",
+    "exporting": "Exporting...",
+    "csv": "Export as CSV",
+    "json": "Export as JSON",
+    "columns": {
+      "position": "Position",
+      "videoId": "Video ID",
+      "title": "Title",
+      "channel": "Channel",
+      "published": "Published",
+      "description": "Description"
+    }
+  },
+  "quota": {
+    "title": "API Quota Exceeded",
+    "message": "The YouTube API daily quota has been exceeded. This limit is shared across all users of this application.",
+    "resetTime": "The quota resets at <strong>midnight Pacific Time</strong> (PT).",
+    "explanation": "This is a limitation of the YouTube Data API. Each application has a daily quota of API requests. Please try again after the quota resets.",
+    "errorMessage": "YouTube API quota exceeded. Please try again tomorrow."
+  },
+  "errors": {
+    "title": "Error",
+    "retry": "Retry",
+    "tryAgain": "Try Again",
+    "somethingWentWrong": "Something went wrong",
+    "unexpectedError": "An unexpected error occurred",
+    "returnHome": "Return to Home"
+  },
+  "theme": {
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode",
+    "toggleLabel": "Toggle theme"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "fr": "Français"
+  },
+  "footer": {
+    "unofficialDeployment": "UNOFFICIAL DEPLOYMENT OF YOUTUBE PLAYLIST EXPORTER",
+    "privacyFirst": "Privacy First: We don't get your data. See",
+    "termsLink": "Terms of Service",
+    "privacyLink": "Privacy Policy",
+    "demoWarning": "PRIVATE DEMO - Not configured for general public access",
+    "seeOur": "See our",
+    "githubRepo": "GitHub repository",
+    "forSource": "for source",
+    "by": "by"
+  },
+  "terms": {
+    "backToApp": "Back to app"
+  }
+}
