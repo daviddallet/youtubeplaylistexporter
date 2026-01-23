@@ -1,7 +1,7 @@
 // Copyright (c) 2026 David Dallet
 // Licensed under BSL 1.1 - see LICENSE file
 
-import { Box, Container, Typography, Paper, Alert } from '@mui/material';
+import { Box, Container, Typography, Paper, Alert, useTheme } from '@mui/material';
 import { Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import PlaylistPlayIcon from '@mui/icons-material/PlaylistPlay';
@@ -12,6 +12,8 @@ import { useAuth } from '../hooks';
 export function LoginPage() {
   const { isAuthenticated, error } = useAuth();
   const { t } = useTranslation();
+  const theme = useTheme();
+  const isDarkMode = theme.palette.mode === 'dark';
 
   if (isAuthenticated) {
     return <Navigate to="/" replace />;
@@ -97,9 +99,34 @@ export function LoginPage() {
 
           <LoginButton />
 
-          <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 4 }}>
+          <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 3 }}>
+            {t('auth.trademarkDisclaimer')}
+          </Typography>
+
+          <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 2 }}>
             {t('auth.readOnlyAccess')}
           </Typography>
+
+          <Box
+            component="a"
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            sx={{
+              display: 'inline-block',
+              mt: 4,
+              transition: 'opacity 0.2s',
+              '&:hover': {
+                opacity: 0.8,
+              },
+            }}
+          >
+            <img
+              src={isDarkMode ? '/images/developed-with-youtube-light.png' : '/images/developed-with-youtube-dark.png'}
+              alt="Developed with YouTube"
+              style={{ height: 96 }}
+            />
+          </Box>
         </Paper>
       </Container>
 

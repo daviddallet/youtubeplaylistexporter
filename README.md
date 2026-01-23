@@ -1,6 +1,6 @@
-# YouTube Playlist Exporter
+# Playlist Exporter
 
-A modern web application to view and export your YouTube playlists to CSV and JSON formats.
+A modern web application to view and export your playlists to CSV and JSON formats.
 
 ## Features
 

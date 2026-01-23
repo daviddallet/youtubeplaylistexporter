@@ -110,9 +110,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'robots.txt', 'icons/*.png'],
       manifest: {
-        name: 'YouTube Playlist Exporter',
-        short_name: 'YT Playlists',
-        description: 'Export your YouTube playlists to CSV and JSON format',
+        name: 'Playlist Exporter',
+        short_name: 'PlaylistExporter',
+        description: 'Export your playlists to CSV and JSON format',
         theme_color: '#FF0000',
         background_color: '#0F0F0F',
         display: 'standalone',

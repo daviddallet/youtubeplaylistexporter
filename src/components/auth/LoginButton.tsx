@@ -2,7 +2,7 @@
 // Licensed under BSL 1.1 - see LICENSE file
 
 import { Button, CircularProgress } from '@mui/material';
-import GoogleIcon from '@mui/icons-material/Google';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../../hooks';
 
@@ -16,7 +16,7 @@ export function LoginButton() {
       size="large"
       onClick={() => login()}
       disabled={isLoading}
-      startIcon={isLoading ? <CircularProgress size={20} color="inherit" /> : <GoogleIcon />}
+      startIcon={isLoading ? <CircularProgress size={20} color="inherit" /> : <YouTubeIcon />}
       sx={{
         py: 1.5,
         px: 4,

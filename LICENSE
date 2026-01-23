@@ -5,7 +5,7 @@ License text copyright (c) 2020 MariaDB Corporation Ab, All Rights Reserved.
 “Business Source License” is a trademark of MariaDB Corporation Ab.
 
 Licensor: David Dallet
-Licensed work: The Licensed Work is the part of this Youtube Playlist Exporter app copyrighted by David Dallet. For clarity it is most of the source code, excluding any dependency.
+Licensed Work: The Licensed Work is the part of this Playlist Exporter app copyrighted by David Dallet. For clarity it is most of the source code, excluding any dependency.
 
 Change Date: Four (4) years from the date on which the applicable copy of
              the Licensed Work was first made publicly available by the
@@ -38,8 +38,8 @@ a commercial license under ONE of the following conditions:
       - The name of the party responsible for the deployment;
       - A contact email address;
       - A physical address;
-      - The notice: "UNOFFICIAL USE OF YouTube Playlist Exporter" with a
-        hyperlink to "https://github.com/pwasuite/youtubeplaylistexporter";
+      - The notice: "UNOFFICIAL USE OF Playlist Exporter" with a
+        hyperlink to "https://github.com/pwasuite/playlistexporter";
 
    c) No more than 100 individual users (excluding members of the deploying
       organization, as defined in the associated Google Cloud Console

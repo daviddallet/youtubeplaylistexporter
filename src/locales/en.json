@@ -1,8 +1,8 @@
 {
   "app": {
-    "title": "YouTube Playlist Exporter",
-    "shortTitle": "YT Playlists",
-    "description": "Export your YouTube playlists to CSV and JSON format. View, manage, and download your playlist data easily."
+    "title": "Playlist Exporter",
+    "shortTitle": "PlaylistExporter",
+    "description": "Export your playlists to CSV and JSON format. View, manage, and download your playlist data easily."
   },
   "config": {
     "title": "Configuration Required",
@@ -14,18 +14,19 @@
     "googleCloudConsole": "Google Cloud Console"
   },
   "auth": {
-    "signIn": "Sign in with Google",
+    "signIn": "Sign in with YouTube",
     "signingIn": "Signing in...",
     "signOut": "Sign out",
     "readOnlyAccess": "This app only requests read-only access to your YouTube playlists.",
+    "trademarkDisclaimer": "YouTube and Google are trademarks of Google LLC. This application is not created, endorsed, or affiliated with Google.",
     "loginFailed": "Login failed",
     "sessionExpired": "Your session has expired. Please sign in again.",
     "failedToFetchUserInfo": "Failed to fetch user info",
     "failedToAuthenticate": "Failed to authenticate"
   },
   "login": {
-    "title": "YouTube Playlist Exporter",
-    "description": "View and export your YouTube playlists to CSV or JSON format. Sign in with your Google account to get started."
+    "title": "Playlist Exporter",
+    "description": "View and export your playlists to CSV or JSON format. Sign in with your Google account to get started."
   },
   "playlists": {
     "title": "Your Playlists",
@@ -113,7 +114,7 @@
     "fr": "Français"
   },
   "footer": {
-    "unofficialDeployment": "UNOFFICIAL DEPLOYMENT OF YOUTUBE PLAYLIST EXPORTER",
+    "unofficialDeployment": "UNOFFICIAL DEPLOYMENT OF PLAYLIST EXPORTER",
     "privacyFirst": "Privacy First: We don't get your data. See",
     "termsLink": "Terms of Service",
     "privacyLink": "Privacy Policy",

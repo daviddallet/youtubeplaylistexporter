@@ -1,8 +1,8 @@
 {
   "app": {
-    "title": "Exportateur de playlists YouTube",
-    "shortTitle": "YT Playlists",
-    "description": "Exportez vos playlists YouTube aux formats CSV et JSON. Visualisez, gérez et téléchargez vos données de playlist facilement."
+    "title": "Exportateur de playlists",
+    "shortTitle": "PlaylistExporter",
+    "description": "Exportez vos playlists aux formats CSV et JSON. Visualisez, gérez et téléchargez vos données de playlist facilement."
   },
   "config": {
     "title": "Configuration requise",
@@ -14,18 +14,19 @@
     "googleCloudConsole": "Google Cloud Console"
   },
   "auth": {
-    "signIn": "Se connecter avec Google",
+    "signIn": "Se connecter avec YouTube",
     "signingIn": "Connexion en cours...",
     "signOut": "Se déconnecter",
     "readOnlyAccess": "Cette application demande uniquement un accès en lecture seule à vos playlists YouTube.",
+    "trademarkDisclaimer": "YouTube et Google sont des marques de Google LLC. Cette application n'est ni créée, ni approuvée, ni affiliée à Google.",
     "loginFailed": "Échec de la connexion",
     "sessionExpired": "Votre session a expiré. Veuillez vous reconnecter.",
     "failedToFetchUserInfo": "Impossible de récupérer les informations utilisateur",
     "failedToAuthenticate": "Échec de l'authentification"
   },
   "login": {
-    "title": "Exportateur de playlists YouTube",
-    "description": "Visualisez et exportez vos playlists YouTube aux formats CSV ou JSON. Connectez-vous avec votre compte Google pour commencer."
+    "title": "Exportateur de playlists",
+    "description": "Visualisez et exportez vos playlists aux formats CSV ou JSON. Connectez-vous avec votre compte Google pour commencer."
   },
   "playlists": {
     "title": "Vos playlists",
@@ -113,7 +114,7 @@
     "fr": "Français"
   },
   "footer": {
-    "unofficialDeployment": "DÉPLOIEMENT NON OFFICIEL DE YOUTUBE PLAYLIST EXPORTER",
+    "unofficialDeployment": "DÉPLOIEMENT NON OFFICIEL DE PLAYLIST EXPORTER",
     "privacyFirst": "Confidentialité d'abord : Nous n'avons pas accès à vos données. Voir",
     "termsLink": "Conditions d'utilisation",
     "privacyLink": "Politique de confidentialité",

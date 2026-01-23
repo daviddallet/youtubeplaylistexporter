@@ -69,7 +69,7 @@ export function Footer() {
       <Typography variant="body2" color="text.secondary" sx={{ fontSize: '0.75rem' }}>
         {t('footer.seeOur')}{' '}
         <Link
-          href="https://github.com/pwasuite/youtubeplaylistexporter"
+          href="https://github.com/pwasuite/playlistexporter"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
@@ -79,7 +79,7 @@ export function Footer() {
         </Link>{' '}
         {t('footer.forSource')} -{' '}
         <Link
-          href="https://youtubeplaylistexporter.pwasuite.com/"
+          href="https://playlistexporter.pwasuite.com/"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
